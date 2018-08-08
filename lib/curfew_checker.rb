@@ -14,11 +14,18 @@ def curfew_checker(time)
     puts "You can stay out longer"
   end
 end
-curfew_checker(10)
+# curfew_checker(10)
 
 def complex_curfew_checker(time)
-  # code goes here
+  if time > 11
+    puts "You are late"
+  elsif time == 11
+    puts "You are not late!"
+  else time < 11
+    puts "You can stay out longer"
+  end
 end
+complex_curfew_checker(9)
 
 # def deluxe_curfew_checker(time)
 #   # code goes here
