@@ -12,7 +12,7 @@ def curfew_checker(time)
     puts "You are late"
   elsif time == 11
     puts "You are not late!"
-  else time > 11
+  else time < 11
     puts "You can stay out longer"
   end
 end
