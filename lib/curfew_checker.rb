@@ -42,9 +42,9 @@ deluxe_curfew_checker(3)
 def platinum_curfew_checker(current_time, curfew_time)
   if time >= curfew_time
     puts "You are late"
-  elsif time == 11
+  elsif time == curfew_time
     puts "You are not late!"
-  else time < 11
+  else time < curfew_time
     puts "You can stay out longer"
   end
 end
